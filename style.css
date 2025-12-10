@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: skyblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+    background: skyblue;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#menu, #resumeMenu {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
